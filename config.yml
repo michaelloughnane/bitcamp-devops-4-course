@@ -1,0 +1,16 @@
+title: BitCamp-DevOps-4
+description: A lesson on writing custom action files with JavaScript.
+template:
+  repo: bitcamp-devops-4-template
+  name: bitcamp-devops-4
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue

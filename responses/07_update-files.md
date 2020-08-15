@@ -4,7 +4,7 @@
 
 That was a lot of information that you just learned. @{{user.login}} it is time for you to put it in practice.
 
-1. Using your code editor change these files to reflect the code in the examples shown above:
+1. Using your code editor, navigate into each file and modify them so that each one is similar to the code in the examples shown above:
 
      <details><summary><code>.github/actions/hello-world/main.js</code></summary>
 
@@ -74,6 +74,8 @@ That was a lot of information that you just learned. @{{user.login}} it is time 
                 first-greeting: "Learning Lab User"
       ```
       </details>
+
+**Hint:** Take the concepts you learned previously, and apply them here to see what you can come up with!
 
 2. Save the changes to each file
 3. Commit the changes to this branch and push them to GitHub:

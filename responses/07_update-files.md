@@ -2,7 +2,7 @@
 
 ### :keyboard: Activity: Add input parameters
 
-That was a lot of information that you just learned. @{{user.login}} it is time for you to put it in practice.
+That was a lot of information that you just learned. @{{user.login}}, it is time for you to put it into practice.
 
 1. Using your code editor, navigate into each file and modify them so that each one is similar to the code in the examples shown above:
 
@@ -55,19 +55,19 @@ That was a lot of information that you just learned. @{{user.login}} it is time 
 
 
       <details><summary><code>.github/workflows/my-workflow.yml</code></summary>
-
+    
       ```yaml
-
+    
       name: "JS Actions"
-
+    
       on: [push]
-
+    
       jobs:
         action:
           runs-on: "ubuntu-latest"
           steps:
             - uses: actions/checkout@v1
-
+    
             - name: "hello-action"
               uses: ./.github/actions/hello-world
               with:

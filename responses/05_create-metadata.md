@@ -1,4 +1,4 @@
-## Enough talk, lets do this!
+## Enough talk, let's do this!
 
 Now that we know what action metadata is, let's create the metadata for our current **hello-world** action.
 
@@ -27,7 +27,7 @@ We will start with using the parameters that are **required** and later implemen
    git push
    ```
    
- ---
+---
 
 I'll respond here once I notice that you've pushed your changes.
 

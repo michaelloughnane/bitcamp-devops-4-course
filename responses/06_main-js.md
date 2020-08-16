@@ -6,7 +6,7 @@ Hopefully you have also noticed that it fails when it reaches the `hello-action`
 
 As we can see from the screenshot, as well as the [Actions]({{actionsUrl}}) tab, the failure occurs because the runner cannot find the action.
 
-Lets fix that by creating the action it is looking for!
+Let's fix that by creating the action it is looking for!
 
 ### :keyboard: Activity: Hello World
 

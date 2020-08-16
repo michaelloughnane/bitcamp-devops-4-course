@@ -29,7 +29,7 @@ Let's take a second to talk about each of the pieces that we see here:
   - This is the user-defined name for the workflow. This shows up on the Actions tab so we can see which workflows, and their statuses, run on this repository.
   - As you can see, our's is currently named `CI`
 - `on: [push]`
-  - This defines the **event** that will tigger a workflow on this repository. Currently we are listening for any [push event](https://developer.github.com/v3/activity/events/types/#pushevent) that happens within this repository.
+  - This defines the **event** that will trigger a workflow on this repository. Currently we are listening for any [push event](https://developer.github.com/v3/activity/events/types/#pushevent) that happens within this repository.
   - Also note that this is an array, which means we can trigger this workflow [on more than one event](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#about-workflow-events) if that is our intended behavior.
 - `Jobs:`
   - This is our first block of instructions. We are defining our first job for this workflow.
@@ -53,4 +53,4 @@ Let's take a second to talk about each of the pieces that we see here:
 📖Take a deeper dive into [workflow components](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-workflows)
 📖Read more about [configuring workflows](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-workflows)
 
-*if you don't see a response from me below this, try making a new commit to this branch.  Your workflow may have finished before I was ready to listen*
+*if you don't see a response from me below this, try making a new commit to this branch.  Your workflow may have finished before I was ready to listen*,

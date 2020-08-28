@@ -20,8 +20,8 @@ The first iteration of our action will follow the traditional path of logging "H
    console.log("Hello World");
    ```
 
-1. Save the `main.js` file
-1. Commit the changes and push them to the `hello-world` branch:
+2. Save the `main.js` file
+3. Commit the changes and push them to the `hello-world` branch:
    ```shell
    git add main.js
    git commit -m 'create main.js'

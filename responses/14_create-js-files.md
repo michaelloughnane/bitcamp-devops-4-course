@@ -1,14 +1,14 @@
 ## Let's write some JavaScript
 
-@{{user.login}} your **joke-action** stores a value in an `output:` parameter. We are going to use that value to create a new issue inside this repository!
+@{{user.login}}, your **joke-action** stores a value in an `output:` parameter. We are going to use that value to create a new issue inside this repository!
 
 Sometimes going from code-to-cloud requires more automation than CI/CD can provide. Actions can be used for this automation and hopefully after you learn how to interact with this repository through writing this action you'll go on to write many more amazing pieces of automation.
 
 **Scenario**
 
-You run an open source repository that is community driven. Every month you are getting tons of contributions from random developers within the community. Sometimes these contributions are amazing because the developers have read your contributing guidelines. Sometimes the opposite occurs. In both events you would like to thank your community for their contribution and ensure that every contributor is aware that you do in fact have guidelines for contributions. How would you do this?
+You run an open source repository that is community driven. Every month you are getting tons of contributions from random developers within the community. Sometimes these contributions are amazing because the developers have read your contributing guidelines. Sometimes the contributions are... less so. In both events you would like to thank your community for their contribution and ensure that every contributor is aware that you do in fact have guidelines for contributions. How would you do this?
 
-You can imagine just how much time would be consumed if we sent a human... if we can call developers human in the first place 😉, to respond to all of our projects first time contributors with the same kind of message. Enter GitHub Actions! We can easily automate this process and many more using what you've learned up to this point.
+You can imagine just how long it would take if we had a human respond to all of our project's first time contributors with the same kind of message. Enter GitHub Actions! We can easily automate this process and many more using what you've learned up to this point.
 
 Allow me to show you the final piece and get you started with interacting with your repository through an action.
 
@@ -21,7 +21,7 @@ Let's take a look at what the source code for this action will look like and I'l
 
 **Importing packages**
 
-The first two lines will import packages from the [Actions ToolKit](https://github.com/actions/toolkit). You'll find yourself using these libraries a lot, so its good to get familiar with them.
+The first two lines will import packages from the [Actions ToolKit](https://github.com/actions/toolkit). You'll find yourself using these libraries a lot, so it's good to get familiar with them.
 
 ```javascript
 const core = require("@actions/core");

@@ -1,10 +1,10 @@
 ## Using your new action
 
-At this point we can't expect much from our workflow, if you remember all of its contents are commented out. Let's go ahead and fix that now so that we can see our action fetch us a joke.
+At this point we can't expect much from our workflow - if you remember, all of its contents are commented out. Let's go ahead and fix that now so that we can see our action fetch us a joke.
 
 We are going to add a new trigger to our workflow to make it easier for us to trigger it without the need to push changes to the repository. Remember that every time our workflow runs this action we should see a new joke which means we need a good way to make it run a few times. If you recall there are many [events](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#webhook-events) that trigger a workflow run.
 
-We will use the `pull_request` event and specify the activity type to be when an issue get's `labeled`. This will allow us to trigger our workflow by simply placing a label on this pull request.
+We will use the `pull_request` event and specify the activity type to be when an issue gets `labeled`. This will allow us to trigger our workflow by simply placing a label on this pull request.
 
 ### :keyboard: Activity: Restore the workflow file
 

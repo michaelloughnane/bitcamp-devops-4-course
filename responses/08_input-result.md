@@ -1,8 +1,8 @@
 ## Take a 👀 at what you made!
 
-Great Job 👍 making those changes @{{user.login}}.  I will take just a moment to walk you through what happened.
+Great Job 👍 making those changes @{{user.login}}.  I'll take a moment to walk you through what happened.
 
-If you look at the screenshot below you will see a very similar output to what your results should show.  If you'd like you can open your own [Actions tab]({{actionsUrl}}) to follow along.
+If you look at the screenshot below, you will see a very similar output to what your results should show.  If you'd like you can open your own [Actions tab]({{actionsUrl}}) to follow along.
 
 
 ![results from using input](https://i.imgur.com/QFKqDb2.png)

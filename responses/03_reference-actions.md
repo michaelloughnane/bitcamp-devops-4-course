@@ -40,7 +40,7 @@ If you'd like to see more examples of workflows and actions then check out these
         - name: hello-action
           uses: ./.github/actions/hello-world
     ```
-1. Commit these file changes to this branch
+2. Commit these file changes to this branch
 
 ---
 

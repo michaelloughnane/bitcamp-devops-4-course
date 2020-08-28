@@ -2,33 +2,32 @@
 
 GitHub Actions... that's who!
 
-The next action we write is going to reach out to an external API and fetch data for consumption. Although your action is bound to a step, which is bound to a workflow within your repository it is NOT bound to an isolated network. This means that we can leverage APIs from our favorite cloud providers, favorite pizza shops, social media or whatever API our developers need.
+The next action we write is going to reach out to an external API and fetch data for consumption. Although your action is bound to a step, which is bound to a workflow within your repository, it is NOT bound to an isolated network. This means that we can leverage APIs from our favorite cloud providers, favorite pizza shops, social media or whatever API our developers need.
 
 ### What is an API?
 
-If you ask this question to anyone in the industry you'll likely get the obvious answer of "Application Programming Interface," which, although true, doesn't exactly explain what it **is** or what it **does**.
+API stands for "Application Programming Interface," which, although true, doesn't exactly explain what it **is** or what it **does**.
 
-Let's conduct a quick thought experiment to help understand the concept of an API.
+Here's a quick analogy - Imagein a hypothetical car.
 
-I think most people are familiar with a car 🚗 , either through personal experience or some form of media. I also think it's safe to say that most people understand the concepts behind driving a car. By examining how we drive a car we can understand how APIs work in a fun way.
 
 **Car Components**
-When driving a car there are a few components of the car that the driver interacts with directly. This won't be an all inclusive list, and each car varies to some degree, but so does each API. We will use the following components for our example:
+When driving a car there are a few components of the car that the driver interacts with directly. For the sake of our example, let's worry about these four:
 
 - Gas pedal
 - Brake pedal
 - Steering wheel
 - Gear shift
 
-As the driver of the car when we push one of the pedals, move the gear shift position or turn the steering wheel the car responds. Most of us don't know **exactly** how it responds though. We actually don't even think about the system that is in place to amplify the force applied to the steering wheel when we make a turn. We probably don't know if our vehicle has a hydraulic, electro-hydraulic or fully electric power steering system. What we do know is that when we turn the steering wheel the car responds by turning.
+As the driver of the car when we push one of the pedals, changes gears, or turn the steering wheel, the car responds. Most of us don't know **exactly** how it responds though. We don't even think about the system that is in place to amplify the force applied to the steering wheel when we make a turn. We probably don't know if our vehicle has a hydraulic, electro-hydraulic or fully electric power steering system. What we do know is that when we turn the steering wheel, the car turns.
 
-The steering wheel has become an API between the driver and the inner workings of the power steering system and the systems that it communicates with. You see, steering the car eventually turns the wheels of the car and that takes place through further interconnected systems that are abstracted away from the driver.
+The steering wheel has become an API between the driver and the inner workings of the power steering system. Steering the car eventually turns the wheels of the car, which takes place through further interconnected systems that are abstracted away from the driver.
 
-The same is true with the gear shift. When we move our car into a different state using the gear shift a series of events take place throughout the car to reflect that change. This could be going from a stopped position to driving forward. It could be going from forward motion to reverse. It could even be cycling through gears in the case of a manual transmission. Ultimately, by moving the gear shift we tell the car what to do when we apply the gas pedal.
+The same is true with the gear shift. When we switch gears, a series of changes throughout the car occur. This could be going from a stopped position to driving forward. It could be going from forward motion to reverse. It could even be cycling through gears, if the car is a manual. Ultimately, by shifting gear what to do when we apply the gas pedal.
 
-Very simply, the gas pedal changes the speed of our car. We press it down to go faster, and lift off of it to stop going faster. What if we want to fully stop? The gas pedal, gear shift and steering wheel won't help us with that, but the brake pedal will.
+Very simply, the gas pedal changes the acceleration of our car. We press it down to go faster, and lift off of it to stop going faster. What if we want to fully stop? The gas pedal, gear shift and steering wheel won't help us with that, but the brake pedal will.
 
-All of these systems, these APIs, designed to help a human drive a car, are constantly communicating with one another to produce a moving vehicle. The driver didn't have to concern themselves with the implementation, platform, architecture, complex queries or manufacturer differences of each car. They just need to concern themselves with how a steering wheel, gas pedal, brake pedal and gear shift work.
+All of these systems, these APIs, designed to help a human drive a car, are constantly communicating with one another to produce a moving vehicle. The driver doesn't have to concern themselves with the implementation, platform, architecture, complex queries or manufacturer differences of each car. They just need to concern themselves with how a steering wheel, gas pedal, brake pedal and gear shift work.
 
 What gets even better is that the API for a car is pretty standard from one car to the next. Once you learn one steering wheel you pretty much know them all!
 

@@ -1,6 +1,6 @@
 ##  Time for you to explore
 
-Take a few minutes to play with the current code you have.  I don't suggest editing the `main.js` file, rather I think there is a lot to gain by changing the `my-workflow.yml` file to include or exclude certain input parameters. 
+Take a few minutes to play with the current code you have.  I don't suggest editing the `main.js` file, but I think there is a lot to gain by changing the `my-workflow.yml` file to include or exclude certain input parameters. 
 
 ### :keyboard: Activity: Try these things
 
@@ -10,7 +10,7 @@ Take a few minutes to play with the current code you have.  I don't suggest edit
 
 When you are finished experimenting and examining the results merge this pull request into the **master** branch.  
 
-Our next lesson will show you how to add external libraries to an action as well as interact with external APIs.
+Next, I'll show you how to add external libraries to an action as well as interact with external APIs.
 
 ---
 
